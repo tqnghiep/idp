@@ -39,7 +39,7 @@ class SimpleSAML_Utils_Crypto {
 				base64_encode(hash($php_algo, $password.$salt, TRUE) . $salt);
 		}
 
-		throw new Exception('Hashing algoritm \'' . strtolower($algo) . '\' not supported');
+		throw new Exception('Hashing algorithm \'' . strtolower($algo) . '\' not supported');
 
 	}
 
@@ -74,7 +74,7 @@ class SimpleSAML_Utils_Crypto {
 				return ( $crypted == self::pwHash($clear, $algo, $salt) );
 			}
 
-			throw new Exception('Hashing algoritm \'' . strtolower($algo) . '\' not supported');
+			throw new Exception('Hashing algorithm \'' . strtolower($algo) . '\' not supported');
 
 		} else {
 			return $crypted === $clear;

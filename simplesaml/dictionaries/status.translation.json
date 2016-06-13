@@ -216,7 +216,7 @@
 		"cs": "Va\u0161e sezen\u00ed je platn\u00e9 %SECONDS% sekund od te\u010f.",
 		"tr": "Oturumunuz, \u015fu andan itibaren %SECONDS% saniyeli\u011fine ge\u00e7erlidir.",
 		"it": "La tua sessione \u00e8 valida per ulteriori %SECONDS% secondi.",
-		"lt": "J\u016bs\u0173 sesija galioja %SECONDS% sekund\u017ei\u0173, skai\u010diuojant nuo \u0161io momento.",
+		"lt": "J\u016bs\u0173 sesija galioja %SECONDS% sekund\u017ei\u0173, skai\u010diuojant nuo \u0161io memento.",
 		"ja": "\u30bb\u30c3\u30b7\u30e7\u30f3\u306f\u4eca\u304b\u3089 %SECONDS% \u79d2\u9593\u6709\u52b9\u3067\u3059",
 		"zh-tw": "\u60a8\u7684 session \u5f9e\u73fe\u5728\u8d77\u9084\u6709 %SECONDS% \u6709\u6548\u3002",
 		"et": "Sinu sessioon kehtib veel %SECONDS% sekundit.",

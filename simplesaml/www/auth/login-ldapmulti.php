@@ -69,7 +69,7 @@ if (isset($_POST['username'])) {
 			'Format' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient'));
 				
 		/**
-		 * Create a statistics log entry for every successfull login attempt.
+		 * Create a statistics log entry for every successful login attempt.
 		 * Also log a specific attribute as set in the config: statistics.authlogattr
 		 */
 		$authlogattr = $config->getValue('statistics.authlogattr', null);

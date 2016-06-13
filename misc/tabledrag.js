@@ -357,7 +357,7 @@ Drupal.tableDrag.prototype.makeDraggable = function(item) {
   });
 
   // Compatibility addition, return false on keypress to prevent unwanted scrolling.
-  // IE and Safari will supress scrolling on keydown, but all other browsers
+  // IE and Safari will suppress scrolling on keydown, but all other browsers
   // need to return false on keypress. http://www.quirksmode.org/js/keys.html
   handle.keypress(function(event) {
     switch (event.keyCode) {

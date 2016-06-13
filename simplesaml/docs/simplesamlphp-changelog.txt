@@ -381,7 +381,7 @@ Released 2012-06-13.
   * A prototype for a new statistics logging core. Provides more structured logging of events, and support for multiple storage backends.
   * Support for arbitrary namespace-prefixed attributes in md:EndpointType-elements.
   * Fix invalid HTML for login pages where username is set.
-  * Remove unecessary check for PHP version >= 5.2 when setting cookies.
+  * Remove unnecessary check for PHP version >= 5.2 when setting cookies.
   * Better error message when a module is missing a default-enable or default-disable file.
   * Support for validating RSA-SHA256 signatures.
   * Fixes for session exipration handling.

@@ -118,7 +118,7 @@ class sspmod_negotiate_Auth_Source_Negotiate extends SimpleSAML_Auth_Source {
 			}
 
 			if($reply) {
-				// Success. Krb TGS recieved.
+				// Success. Krb TGS received.
 				$user = $auth->getAuthenticatedUser();
 				SimpleSAML_Logger::info('Negotiate - authenticate(): '. $user . ' authenticated.');
 				$lookup = $this->lookupUserData($user);
@@ -134,7 +134,7 @@ class sspmod_negotiate_Auth_Source_Negotiate extends SimpleSAML_Auth_Source {
 					assert('FALSE');
 				}
 			} else {
-				// Some error in the recieved ticket. Expired?
+				// Some error in the received ticket. Expired?
 				SimpleSAML_Logger::info('Negotiate - authenticate(): Kerberos authN failed. Skipping.');
 			}
 		} else {

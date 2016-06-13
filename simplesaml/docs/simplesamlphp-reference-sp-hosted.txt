@@ -184,7 +184,7 @@ list given as parameter to InitSSO, the list configured at the sp
 (here) and the list configured at the ipd for this sp. The
 intersection of the final list and the idps configured at the
 proxy/bridge will be presented to the user at the discovery service
-if neccessary. If only one idp is in the intersection the
+if necessary. If only one idp is in the intersection the
 discoveryservice will go directly to the idp.
 
 **Example: Configuration for scoping**

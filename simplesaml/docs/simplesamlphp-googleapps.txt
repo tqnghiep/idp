@@ -204,7 +204,7 @@ something similar to:
 
 using the hostname of your IdP server.
 
-You must also configure the IdP initiated Single LogOut endpoint of your server. The RelayState parameter of the endpoint is the URL where the user is redirected after successfull logout. Recommended value:
+You must also configure the IdP initiated Single LogOut endpoint of your server. The RelayState parameter of the endpoint is the URL where the user is redirected after successful logout. Recommended value:
 
 	http://dev2.andreas.feide.no/simplesaml/saml2/idp/initSLO.php?RelayState=/simplesaml/logout.php
 

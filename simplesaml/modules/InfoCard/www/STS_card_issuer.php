@@ -62,7 +62,7 @@ function calculate_RP_PPID_Seed_2_2007 ($certs) {
 /*
 * DESCRIPTION: Calculate the PPID for a card
 * INPUT: card ID, and RP certificates
-* OUTPUT: PPID asociated to a Relying Party
+* OUTPUT: PPID associated to a Relying Party
 */
 function calculate_PPID($cardid, $rp_cert) {
 	$CardIdBytes = iconv("ISO-8859-1", "UTF-16LE", $cardid);

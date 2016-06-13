@@ -155,7 +155,7 @@ function printHelp() {
 	echo('                              Path will be relative to the simpleSAMLphp' . "\n");
 	echo('                              base directory.' . "\n");
 	echo(' -s, --stdout                 Write the output to stdout instead of' . "\n");
-	echo('                              seperate files in the output directory.' . "\n");
+	echo('                              separate files in the output directory.' . "\n");
 	echo("\n");
 }
 

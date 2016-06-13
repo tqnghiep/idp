@@ -67,7 +67,7 @@ $para = array(
 SimpleSAML_Module::callHooks('attributepresentation', $para);
 
 /*
- * The attributes variable now contains all the attributes. So this variable is basicly all you need to perform integration in 
+ * The attributes variable now contains all the attributes. So this variable is basically all you need to perform integration in 
  * your PHP application.
  * 
  * To debug the content of the attributes variable, do something like:

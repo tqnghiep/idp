@@ -1663,7 +1663,7 @@ function comment_controls_submit($form, &$form_state) {
 
   if ($user->uid) {
     $account = user_save($user, array('mode' => $mode, 'sort' => $order, 'comments_per_page' => $comments_per_page));
-    // Terminate if an error occured during user_save().
+    // Terminate if an error occurred during user_save().
     if (!$account) {
       drupal_set_message(t("Error saving user account."), 'error');
       return;

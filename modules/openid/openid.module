@@ -489,7 +489,7 @@ function openid_authentication($response) {
     else {
       unset($form_state['values']['response']);
       $account = user_save('', $form_state['values']);
-      // Terminate if an error occured during user_save().
+      // Terminate if an error occurred during user_save().
       if (!$account) {
         drupal_set_message(t("Error saving user account."), 'error');
         drupal_goto();

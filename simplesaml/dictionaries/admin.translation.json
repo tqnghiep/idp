@@ -1480,7 +1480,7 @@
 		"tr": "\"Debug\" modunu global simpleSAMLphp konfig\u00fcrasyon dosyas\u0131nda <tt>config\/config.php<\/tt> kapatabilirsiniz.",
 		"de": "Sie k\u00f6nnen den Debug-Modus in der globalen simpleSAMLphp Konfigurationsdatei <tt>config\/config.php<\/tt> ausschalten.",
 		"fr": "Vous pouvez d\u00e9sactivez le mode d\u00e9bogage dans le fichier de configuration globale de simpleSAMLphp (<tt>config\/config.php<\/tt>).",
-		"it": "E' possibile disabilitare la modalit\u00e0 di debug nel file di configurazione globale di simpleSAMLphp, <tt>config\/config.php<\/tt>.",
+		"it": "E' possible disabilitare la modalit\u00e0 di debug nel file di configurazione globale di simpleSAMLphp, <tt>config\/config.php<\/tt>.",
 		"ja": "\u3042\u306a\u305f\u306fsimpleSAMLphp\u306e\u30b0\u30ed\u30fc\u30d0\u30eb\u8a2d\u5b9a<tt>config\/config.php<\/tt>\u3067\u30c7\u30d0\u30c3\u30af\u30e2\u30fc\u30c9\u3092\u30aa\u30d5\u306b\u51fa\u6765\u307e\u3059\u3002",
 		"lt": "J\u016bs galite i\u0161jungti detal\u0173j\u012f nar\u0161ym\u0105 globaliame simpleSAMLphp konfig\u016braciniame faile <tt>config\/config.php<\/tt>.",
 		"zh-tw": "\u60a8\u53ef\u4ee5 simpleSAMLphp \u7684\u5168\u57df\u8a2d\u5b9a\u6a94 <tt>config\/config.php<\/tt> \u88e1\u95dc\u9589\u9664\u932f\u6a21\u5f0f\u3002",

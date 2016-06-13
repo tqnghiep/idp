@@ -13,7 +13,7 @@ The pack.php tool - Installation of third party SimpleSAMLphp modules
 
 This document describes the use of the `bin/pack.php` command line tool, and how it can be used to install third party SimpleSAMLphp modules.
 
-*WARNING:* The *pack.php* tool is a recently added cutting edge tool that is considered experimental. We need to gather more experience and add better security before we will reccomend using this tool for production setups.
+*WARNING:* The *pack.php* tool is a recently added cutting edge tool that is considered experimental. We need to gather more experience and add better security before we will recommend using this tool for production setups.
 
 
 Online Module Repository

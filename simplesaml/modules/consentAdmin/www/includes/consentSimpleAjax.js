@@ -24,7 +24,7 @@ function checkConsent(consentValue, show_spid, checkAction)
 	xmlHttp.send(null)
 }
 
-// This function will be automaticly called when the Ajax call is done returning data
+// This function will be automatically called when the Ajax call is done returning data
 function stateChanged() { 
 	if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete")
 	{ 

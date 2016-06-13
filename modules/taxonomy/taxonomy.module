@@ -274,7 +274,7 @@ function taxonomy_check_vocabulary_hierarchy($vocabulary, $changed_term) {
   $tree = taxonomy_get_tree($vocabulary['vid']);
   $hierarchy = 0;
   foreach ($tree as $term) {
-    // Update the changed term with the new parent value before comparision.
+    // Update the changed term with the new parent value before comparison.
     if ($term->tid == $changed_term['tid']) {
       $term = (object)$changed_term;
       $term->parents = $term->parent;

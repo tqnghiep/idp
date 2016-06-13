@@ -102,7 +102,7 @@ function _db_query($query, $debug = 0) {
     $timer = (float)$usec + (float)$sec;
     // If devel.module query logging is enabled, prepend a comment with the username and calling function
     // to the SQL string. This is useful when running mysql's SHOW PROCESSLIST to learn what exact
-    // code is issueing the slow query.
+    // code is issuing the slow query.
     $bt = debug_backtrace();
     // t() may not be available yet so we don't wrap 'Anonymous'
     $name = $user->uid ? $user->name : variable_get('anonymous', 'Anonymous');

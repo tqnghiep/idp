@@ -358,7 +358,7 @@ relevant for this sp. The final list is the concatenation of the list
 given as parameter to InitSSO (at the sp), the list configured at the
 sp and the list configured at the ipd (here) for this sp. The intersection
 of the final list and the idps configured at the at this idp will be
-presented to the user at the discovery service if neccessary. If only one 
+presented to the user at the discovery service if necessary. If only one 
 idp is in the intersection the discoveryservice will go directly to the idp.
 
 **Example: Configuration for scoping**

@@ -59,7 +59,7 @@ if (isset($_POST['password'])) {
 		SimpleSAML_Logger::info('AUTH - admin: '. $username . ' successfully authenticated');
 
 		/**
-		 * Create a statistics log entry for every successfull login attempt.
+		 * Create a statistics log entry for every successful login attempt.
 		 * Also log a specific attribute as set in the config: statistics.authlogattr
 		 */
 		$authlogattr = $config->getValue('statistics.authlogattr', null);

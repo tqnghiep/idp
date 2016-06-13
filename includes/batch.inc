@@ -127,7 +127,7 @@ function _batch_progress_page_nojs() {
   else {
     // This is one of the later requests: do some processing first.
 
-    // Error handling: if PHP dies due to a fatal error (e.g. non-existant
+    // Error handling: if PHP dies due to a fatal error (e.g. non-existent
     // function), it will output whatever is in the output buffer,
     // followed by the error message.
     ob_start();

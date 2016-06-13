@@ -392,7 +392,7 @@ function _menu_load_objects(&$item, &$map) {
           foreach ($args as $i => $arg) {
             if ($arg === '%index') {
               // Pass on argument index to the load function, so multiple
-              // occurances of the same placeholder can be identified.
+              // occurrences of the same placeholder can be identified.
               $args[$i] = $index;
             }
             if ($arg === '%map') {

@@ -54,7 +54,7 @@
 		"en": "Please, enter a self issued InfoCard in order to link it with the managed one we are generating."
 	},
 	"getcardform_finished_title": {
-		"en": "Congratulations, your Infocard was succesfully generated"
+		"en": "Congratulations, your Infocard was successfully generated"
 	},
 	"getcardform_finished_text": {
 		"en": "Please follow the next link to get to the login page."

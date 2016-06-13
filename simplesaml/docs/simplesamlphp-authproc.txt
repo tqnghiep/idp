@@ -133,7 +133,7 @@ The following filters are included in the simpleSAMLphp distribution:
 - [`core:AttributeMap`](./core:authproc_attributemap): Change the name of the attributes.
 - [`core:AttributeRealm`](./core:authproc_attributerealm): Create an attribute with the realm of the user.
 - [`core:GenerateGroups`](./core:authproc_generategroups): Generate a `group` attribute for the user.
-- [`core:LanguageAdaptor`](./core:authproc_languageadaptor): Transfering language setting from IdP to SP.
+- [`core:LanguageAdaptor`](./core:authproc_languageadaptor): Transferring language setting from IdP to SP.
 - [`core:PHP`](./core:authproc_php): Modify attributes with custom PHP code.
 - [`core:ScopeAttribute`](./core:authproc_scopeattribute): Add scope to attribute.
 - [`core:ScopeFromAttribute`](./core:authproc_scopefromattribute): Create a new attribute based on the scope on a different attribute.

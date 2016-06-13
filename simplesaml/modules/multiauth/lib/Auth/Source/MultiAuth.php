@@ -130,7 +130,7 @@ class sspmod_multiauth_Auth_Source_MultiAuth extends SimpleSAML_Auth_Source {
 	/**
 	 * Delegate authentication.
 	 *
-	 * This method is called once the user has choosen one authentication
+	 * This method is called once the user has chosen one authentication
 	 * source. It saves the selected authentication source in the session
 	 * to be able to logout properly. Then it calls the authenticate method
 	 * on such selected authentication source.

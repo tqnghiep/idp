@@ -849,7 +849,7 @@ function locale_translate_edit_form(&$form_state, $lid) {
  * This test can be used to detect possibly bad translation strings. It should
  * not have any false positives. But it is only a test, not a transformation,
  * as it destroys valid HTML. We cannot reliably filter translation strings
- * on inport becuase some strings are irreversibly corrupted. For example,
+ * on inport because some strings are irreversibly corrupted. For example,
  * a &amp; in the translation would get encoded to &amp;amp; by filter_xss()
  * before being put in the database, and thus would be displayed incorrectly.
  *

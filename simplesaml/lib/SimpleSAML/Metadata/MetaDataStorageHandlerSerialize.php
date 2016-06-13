@@ -241,7 +241,7 @@ class SimpleSAML_Metadata_MetaDataStorageHandlerSerialize extends SimpleSAML_Met
 		$filePath = $this->getMetadataPath($entityId, $set);
 
 		if (!file_exists($filePath)) {
-			SimpleSAML_Logger::warning('Attempted to erase non-existant metadata entry ' .
+			SimpleSAML_Logger::warning('Attempted to erase non-existent metadata entry ' .
 				var_export($entityId, TRUE) . ' in set ' . var_export($set, TRUE) . '.');
 			return;
 		}

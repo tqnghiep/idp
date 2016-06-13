@@ -274,7 +274,7 @@ class SimpleSAML_Memcache {
 			 */
 			if(!is_array($server)) {
 				throw new Exception('Invalid value for the server with index ' . $index .
-					'. Remeber that the \'memcache_store.servers\' configuration option' .
+					'. Remember that the \'memcache_store.servers\' configuration option' .
 					' contains an array of arrays of arrays.');
 			}
 
@@ -325,7 +325,7 @@ class SimpleSAML_Memcache {
 			 */
 			if(!is_array($group)) {
 				throw new Exception('Invalid value for the server with index ' . $index .
-					'. Remeber that the \'memcache_store.servers\' configuration option' .
+					'. Remember that the \'memcache_store.servers\' configuration option' .
 					' contains an array of arrays of arrays.');
 			}
 

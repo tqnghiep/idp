@@ -82,7 +82,7 @@ To summarize the pattern of the defintion file is as follows:
 
 The translation file is similar to the definition file, but including translation to languages others than English.
 
-This file is reccomended to never write manually, but instead use the SimpleSAMLphp translation portal, and then download generated translation files.
+This file is recommended to never write manually, but instead use the SimpleSAMLphp translation portal, and then download generated translation files.
 
 The structure of the file is identical to the definition files, except from the language index, which now is not `en`, but the actual langauge that is translated:
 

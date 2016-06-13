@@ -46,7 +46,7 @@ abstract class sspmod_consent_Store
      * @param string $destinationId A string which identifyes the destination.
      * @param string $attributeSet  A hash which identifies the attributes.
      *
-     * @return bool True if consent is succesfully saved otherwise false 
+     * @return bool True if consent is successfully saved otherwise false 
      */
     abstract public function saveConsent($userId, $destinationId, $attributeSet);
 

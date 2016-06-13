@@ -4,7 +4,7 @@ class sspmod_adfs_IdP_ADFS {
 
 	public static function receiveAuthnRequest(SimpleSAML_IdP $idp) {
 		try {
-			// accomodate for disfunctional $_GET "windows" slash decoding in PHP
+			// accommodate for disfunctional $_GET "windows" slash decoding in PHP
 			$wctx = $_GET['wctx'];
 			foreach (explode('&', $_SERVER['REQUEST_URI']) as $e) {
 				$a = explode('=', $e);

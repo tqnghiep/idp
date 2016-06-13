@@ -113,7 +113,7 @@ if($config->getString('technicalcontact_email', 'na@example.org') === 'na@exampl
 	$mail_ok = TRUE;
 }
 $funcmatrix[] = array(
-	'required' => 'reccomended',
+	'required' => 'recommended',
 	'descr' => 'technicalcontact_email option set',
 	'enabled' => $mail_ok
 	);
@@ -129,7 +129,7 @@ $funcmatrix[] = array(
 );
 
 $funcmatrix[] = array(
-	'required' => 'reccomended',
+	'required' => 'recommended',
 	'descr' => 'Magic Quotes should be turned off',
 	'enabled' => (get_magic_quotes_runtime() == 0)
 );

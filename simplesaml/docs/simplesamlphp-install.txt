@@ -252,7 +252,7 @@ in an alternative way.
 	configuration for some reason, polictics, policy or whatever.
 
 
-The SimpleSAMLphp code contains one folder named `simplesamlphp`. In this folder there are a lot of subfolders for library, metadata, configuration and much more. One of these folders is named `www`. This and *only this* folder should be exposed on the web. The reccomended configuration is to put the whole `simplesamlphp` folder outside the webroot, and then link in the `www` folder by using the `Alias` directive, as described in [the section called “Configuring Apache”](#sect.apacheconfig "Configuring Apache"). But this is not the only possible way.
+The SimpleSAMLphp code contains one folder named `simplesamlphp`. In this folder there are a lot of subfolders for library, metadata, configuration and much more. One of these folders is named `www`. This and *only this* folder should be exposed on the web. The recommended configuration is to put the whole `simplesamlphp` folder outside the webroot, and then link in the `www` folder by using the `Alias` directive, as described in [the section called “Configuring Apache”](#sect.apacheconfig "Configuring Apache"). But this is not the only possible way.
 
 As an example, let's see how you can install simpleSAMLphp in your home directory on a shared hosting server.
 

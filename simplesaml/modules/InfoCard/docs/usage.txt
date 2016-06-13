@@ -35,7 +35,7 @@ InfoCard Generator
 Very important
 --------------
 
-This document is not a strict guide, I mean it might have some errors or missed information. I've tried to comment almost every trick i've used to make the system work and make your life easier. So, if at any point of the installation you feel lost, breathe twice, think for ten minutes in what you are trying to do, read again the documentation and use your common sense. It'll be usefull when you'll face again the configuration file.
+This document is not a strict guide, I mean it might have some errors or missed information. I've tried to comment almost every trick i've used to make the system work and make your life easier. So, if at any point of the installation you feel lost, breathe twice, think for ten minutes in what you are trying to do, read again the documentation and use your common sense. It'll be useful when you'll face again the configuration file.
 	
 	
 Basic installation

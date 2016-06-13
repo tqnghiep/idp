@@ -36,7 +36,7 @@ makes use of the `papi:PAPI` module to the `config/authsources.php` file:
 User attributes
 ---------------
 
-If user attributes were received upon succesful authentication, then their exact
+If user attributes were received upon successful authentication, then their exact
 names and values will be transferred into the $state['Attributes'] array. Please
 note that attribute name mapping could be needed. There's no support for asking
 specific attributes during PAPI authentication. Attributes released to a Service

@@ -114,4 +114,4 @@ You will now have a configuration that caches both downloaded and generated meta
 It will however still update the metadata when the user accesses the aggregator endpoint
 To update the generated metadata in the background, you must add a `cron.tag` option.
 This option must reference a cron tag entry configured in `module_cron.php`.
-Once this is done, your aggregated metadata will be updated everytime that cron entry is executed.
+Once this is done, your aggregated metadata will be updated every time that cron entry is executed.

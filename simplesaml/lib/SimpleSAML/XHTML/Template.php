@@ -440,7 +440,7 @@ class SimpleSAML_XHTML_Template {
 	
 	/**
 	 * You can include translation inline instead of putting translation
-	 * in dictionaries. This function is reccomended to only be used from dynamic
+	 * in dictionaries. This function is recommended to only be used from dynamic
 	 * data, or when the translation is already provided from an external source, as
 	 * a database or in metadata.
 	 *

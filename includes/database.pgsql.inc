@@ -902,7 +902,7 @@ function db_change_field(&$ret, $table, $field, $field_new, $spec, $new_keys = a
   db_add_field($ret, $table, "$field_new", $spec);
 
   // We need to type cast the new column to best transfer the data
-  // db_type_map will return possiblities that are not 'cast-able'
+  // db_type_map will return possibilities that are not 'cast-able'
   // such as serial - they must be made 'int' instead.
   $map =  db_type_map();
   $typecast = $map[$spec['type'] .':'. $spec['size']];

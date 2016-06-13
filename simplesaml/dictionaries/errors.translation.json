@@ -1159,7 +1159,7 @@
 	"descr_ACSPARAMS": {
 		"no": "Du brukte AssertionConsumerService-grensesnittet uten \u00e5 angi en SAML AuthenticationResponse.",
 		"nn": "Du har brukt grensesnittet for mottak av meldingar (Assertion Consumer Service), men utan \u00e5 senda SAML autentiseringssvar (Authentication Response)",
-		"sv": "Du har anropat gr\u00e4nssnittet f\u00f6r Assertion Consumer Service utan att skicka med n\u00e5gon SAML Authentication Responce.",
+		"sv": "Du har anropat gr\u00e4nssnittet f\u00f6r Assertion Consumer Service utan att skicka med n\u00e5gon SAML Authentication Response.",
 		"es": "Usted accedi\u00f3 a la interfaz consumidora de aserciones pero no incluy\u00f3 una respuesta de autenticaci\u00f3n SAML.",
 		"fr": "Vous avez acc\u00e9d\u00e9 \u00e0 l'interface du service de traitement des assertions, mais vous n'avez pas fourni de r\u00e9ponse d'authentification SAML.",
 		"de": "Sie haben auf die Assertion Consumer Service Schnittstelle zugegriffen, aber keine SAML Authentifizierungsantwort bereit gestellt.",
